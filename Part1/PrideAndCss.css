@@ -1,0 +1,29 @@
+html, body{
+
+    background-color: rgb(0, 4, 54);
+    color: azure;
+}
+
+table{
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1em, solid black;
+    padding: 1em;
+    border-spacing: 2em;
+    justify-content: space-evenly;
+}
+
+.chapter{
+
+    font-size: 150%;
+    margin-right: auto;
+
+
+}
+
+#link2HCH0001{
+
+    font-size: 150%;
+}
+
