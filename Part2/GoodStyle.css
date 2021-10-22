@@ -21,16 +21,64 @@
     flex-direction: column;
     align-items: center;
     justify-items: stretch;
-  
-
-    
-    
+     
 }
 
 #hrLine{
 
     background: linear-gradient(to left, rgb(63, 63, 63), rgb(0, 0, 0));
-    height: 30px;
-    align-self: flex-end;
+    height: 50px;
+    width: 100%;
     margin-top: auto;
+    color: blanchedalmond;
+    text-align: right;
+
+    font-size: 2em;
+    line-height: 150%;
+
+    
+}
+
+
+
+.AboutMe{
+    
+    display: flex;
+   
+    width: 60%;
+    flex-direction: row;
+    justify-content: left;
+    line-height: 1cm;
+    
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(88, 121, 158)
+
+
+}
+
+#aboutTitle{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    color: black;
+    margin-left: 5%;
+}
+
+#myImage{
+    
+    width: 300px;
+    height: 500px;
+    
+}
+
+
+.SkillsBar{
+
+    display: flex;
+    margin-left: 60%;
+    flex-flow: row wrap;
+    justify-content: right;
+    background-color: chartreuse;
+    
+    
 }
